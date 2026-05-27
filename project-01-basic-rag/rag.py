@@ -36,6 +36,13 @@ splitter = RecursiveCharacterTextSplitter(chunk_size=500, chunk_overlap=50)
 chunks = splitter.split_documents(documents)
 print(f"Split into {len(chunks)} chunks")
 
+# Log each chunk to see exactly where the splits happened
+print("\n--- Chunk Log ---")
+for i, chunk in enumerate(chunks):
+    preview = chunk.page_content[:80].replace("\n", " | ")
+    print(f"  Chunk {i:2d} | {len(chunk.page_content):3d} chars | {preview}...")
+print("--- End Chunk Log ---\n")
+
 # --- 3. Embed & store in Chroma ---
 embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
 vectorstore = Chroma.from_documents(chunks, embeddings, persist_directory="./chroma_db")
