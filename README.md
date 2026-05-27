@@ -32,5 +32,5 @@ cd project-02-sentence-chunking && python sentence_chunking.py
 Uses LangChain's `SemanticChunker` which embeds every sentence and splits where topic similarity drops. Groups related content by meaning, but has tradeoffs: unpredictable chunk sizes (41–1097 chars), fragile threshold tuning, slow indexing, and sometimes wrong merges when adjacent sentences share keywords across different topics.
 
 ```bash
-cd project-03-semantic-chunking && python true_semantic_chunking.py
+cd project-03-semantic-chunking && python semantic_chunking.py
 ```
