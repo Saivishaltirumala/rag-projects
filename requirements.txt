@@ -23,6 +23,10 @@ langchain-experimental>=0.4.0
 nltk>=3.9.0
 tiktoken>=0.7.0
 
+# Retrieval
+rank-bm25>=0.2.2
+langchain-classic>=1.0.0
+
 # Environment & Config
 python-dotenv>=1.0.0
 

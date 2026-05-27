@@ -34,3 +34,17 @@ Uses LangChain's `SemanticChunker` which embeds every sentence and splits where 
 ```bash
 cd project-03-semantic-chunking && python semantic_chunking.py
 ```
+
+### Project 04 — Parent Document Retriever
+Demonstrates the "search small, return big" pattern. Child chunks (400 chars) are embedded in Chroma for precise retrieval, while parent chunks (2000 chars) are stored in InMemoryStore and returned as context. Fixes the retrieval failures from project-01 by returning the full points table when any child row matches.
+
+```bash
+cd project-04-parent-document-retriever && python parent_document_retriever.py
+```
+
+### Project 05 — Hybrid Search
+Combines BM25 keyword search with Chroma vector search using `EnsembleRetriever` and Reciprocal Rank Fusion. Uses IT support ticket data to show where each search type shines and fails — BM25 for exact error codes, vector for semantic descriptions, ensemble for best coverage.
+
+```bash
+cd project-05-hybrid-search && python hybrid_search.py
+```
