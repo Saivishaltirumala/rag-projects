@@ -5,7 +5,7 @@ from langchain_experimental.text_splitter import SemanticChunker
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_chroma import Chroma
 
-load_dotenv(Path(__file__).resolve().parent.parent / ".env", override=True)
+load_dotenv(Path(__file__).resolve().parent / ".env", override=True)
 
 # --- 1. Load document (same file as project-01 & 02 for comparison) ---
 loader = TextLoader("sample.txt")
@@ -63,7 +63,7 @@ for i, chunk in enumerate(semantic_chunks):
 
 # --- 4. Embed & store in Chroma ---
 print(f"\nEmbedding semantic chunks into Chroma...")
-vectorstore = Chroma.from_documents(semantic_chunks, embeddings, persist_directory="./chroma_db")
+vectorstore = Chroma.from_documents(semantic_chunks, embeddings, persist_directory="./chroma_db_03")
 
 # --- 5. Similarity search — the query that FAILED in project-01 ---
 query = "How many teams were eliminated and which teams finished with 8 points?"

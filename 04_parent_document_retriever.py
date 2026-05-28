@@ -7,7 +7,7 @@ from langchain_chroma import Chroma
 from langchain_classic.retrievers import ParentDocumentRetriever
 from langchain_classic.storage import InMemoryStore
 
-load_dotenv(Path(__file__).resolve().parent.parent / ".env", override=True)
+load_dotenv(Path(__file__).resolve().parent / ".env", override=True)
 
 # --- 1. Load document (same file as all previous projects) ---
 loader = TextLoader("sample.txt")
@@ -40,7 +40,7 @@ child_splitter = RecursiveCharacterTextSplitter(chunk_size=400, chunk_overlap=50
 # Vector store: holds child chunks + their embeddings (for searching)
 # Doc store: holds parent chunks as plain text (for returning)
 embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
-vectorstore = Chroma(embedding_function=embeddings, persist_directory="./chroma_db")
+vectorstore = Chroma(embedding_function=embeddings, persist_directory="./chroma_db_04")
 doc_store = InMemoryStore()
 
 # --- 4. Create the ParentDocumentRetriever ---

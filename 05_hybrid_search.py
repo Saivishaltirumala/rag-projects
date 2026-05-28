@@ -6,7 +6,7 @@ from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_chroma import Chroma
 from langchain_classic.retrievers import EnsembleRetriever
 
-load_dotenv(Path(__file__).resolve().parent.parent / ".env", override=True)
+load_dotenv(Path(__file__).resolve().parent / ".env", override=True)
 
 # --- 1. IT support ticket data ---
 # Mix of exact error codes, technical jargon, and natural descriptions
@@ -47,7 +47,7 @@ bm25_retriever = BM25Retriever.from_documents(documents, k=3)
 
 # Chroma — vector search
 embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
-vectorstore = Chroma.from_documents(documents, embeddings, persist_directory="./chroma_db")
+vectorstore = Chroma.from_documents(documents, embeddings, persist_directory="./chroma_db_05")
 vector_retriever = vectorstore.as_retriever(search_kwargs={"k": 3})
 
 # ============================================================================

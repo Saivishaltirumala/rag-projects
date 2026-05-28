@@ -7,6 +7,6 @@ venv/
 dist/
 build/
 .chroma/
-chroma_db/
+chroma_db*/
 *.faiss
 *.pkl

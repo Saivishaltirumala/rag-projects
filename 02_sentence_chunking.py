@@ -5,7 +5,7 @@ from langchain_text_splitters import NLTKTextSplitter
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_chroma import Chroma
 
-load_dotenv(Path(__file__).resolve().parent.parent / ".env", override=True)
+load_dotenv(Path(__file__).resolve().parent / ".env", override=True)
 
 # --- 1. Load document (same file as project-01 for comparison) ---
 loader = TextLoader("sample.txt")
@@ -44,7 +44,7 @@ for i, chunk in enumerate(semantic_chunks):
 # --- 4. Embed semantic chunks & store in Chroma ---
 print(f"\nEmbedding semantic chunks into Chroma...")
 embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
-vectorstore = Chroma.from_documents(semantic_chunks, embeddings, persist_directory="./chroma_db")
+vectorstore = Chroma.from_documents(semantic_chunks, embeddings, persist_directory="./chroma_db_02")
 
 # --- 5. Similarity search — the query that FAILED in project-01 ---
 # In project-01, this query missed MI (8 pts) because the points table was split

@@ -9,7 +9,7 @@ from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.runnables import RunnablePassthrough
 from langchain_core.output_parsers import StrOutputParser
 
-load_dotenv(Path(__file__).resolve().parent.parent / ".env", override=True)
+load_dotenv(Path(__file__).resolve().parent / ".env", override=True)
 
 # --- 1. Load document ---
 loader = TextLoader("sample.txt")
@@ -45,7 +45,7 @@ print("--- End Chunk Log ---\n")
 
 # --- 3. Embed & store in Chroma ---
 embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
-vectorstore = Chroma.from_documents(chunks, embeddings, persist_directory="./chroma_db")
+vectorstore = Chroma.from_documents(chunks, embeddings, persist_directory="./chroma_db_01")
 print("Vector store created")
 
 # --- 4. Build RAG chain ---
