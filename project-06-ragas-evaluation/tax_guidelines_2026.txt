@@ -1,0 +1,52 @@
+Indian Income Tax Guidelines 2026-27
+
+Overview
+The Indian Income Tax system for the assessment year 2026-27 (financial year 2025-26) operates under two tax regimes: the Old Tax Regime and the New Tax Regime. The New Tax Regime is the default regime for all taxpayers unless they explicitly opt for the Old Tax Regime. The Finance Act 2025 introduced several changes to simplify compliance and promote digital filing.
+
+New Tax Regime - Income Tax Slabs for Individuals
+Income up to Rs 4,00,000: Nil (no tax)
+Income from Rs 4,00,001 to Rs 8,00,000: 5% of income exceeding Rs 4,00,000
+Income from Rs 8,00,001 to Rs 12,00,000: Rs 20,000 + 10% of income exceeding Rs 8,00,000
+Income from Rs 12,00,001 to Rs 16,00,000: Rs 60,000 + 15% of income exceeding Rs 12,00,000
+Income from Rs 16,00,001 to Rs 20,00,000: Rs 1,20,000 + 20% of income exceeding Rs 16,00,000
+Income from Rs 20,00,001 to Rs 24,00,000: Rs 2,00,000 + 25% of income exceeding Rs 20,00,000
+Income above Rs 24,00,000: Rs 3,00,000 + 30% of income exceeding Rs 24,00,000
+
+Old Tax Regime - Income Tax Slabs for Individuals
+Income up to Rs 2,50,000: Nil (no tax)
+Income from Rs 2,50,001 to Rs 5,00,000: 5% of income exceeding Rs 2,50,000
+Income from Rs 5,00,001 to Rs 10,00,000: Rs 12,500 + 20% of income exceeding Rs 5,00,000
+Income above Rs 10,00,000: Rs 1,12,500 + 30% of income exceeding Rs 10,00,000
+
+Standard Deduction
+Under the New Tax Regime, a standard deduction of Rs 75,000 is available to all salaried individuals and pensioners. Under the Old Tax Regime, the standard deduction is Rs 50,000. This deduction is available without any documentation or proof of expenditure.
+
+Section 80C Deductions
+Section 80C allows a maximum deduction of Rs 1,50,000 per financial year. This deduction is available ONLY under the Old Tax Regime. Eligible investments include Employee Provident Fund (EPF), Public Provident Fund (PPF), Equity Linked Savings Scheme (ELSS) with a 3-year lock-in period, National Savings Certificate (NSC), Life Insurance Premium payments, Tuition Fees for children (maximum 2 children), and 5-year Fixed Deposits. Tax saving investments must be made before March 31 of the financial year to claim the deduction.
+
+Section 80D - Health Insurance Deduction
+Under the Old Tax Regime, deduction for health insurance premiums is available under Section 80D. For self, spouse, and children: up to Rs 25,000 per year. For parents below 60 years: additional Rs 25,000. For senior citizen parents (above 60 years): additional Rs 50,000. The maximum total deduction can be Rs 75,000 if both the taxpayer and parents are senior citizens. Preventive health check-up expenses up to Rs 5,000 are also covered within this limit.
+
+House Rent Allowance (HRA)
+HRA exemption is available ONLY under the Old Tax Regime. The exemption is the minimum of: actual HRA received from employer, rent paid minus 10% of basic salary, or 50% of basic salary for metro cities (Delhi, Mumbai, Kolkata, Chennai) and 40% for non-metro cities. Employees paying rent above Rs 1,00,000 per year must provide the landlord's PAN to claim the exemption.
+
+Home Loan Benefits
+Under Section 24(b), interest paid on home loan for a self-occupied property is deductible up to Rs 2,00,000 per year under the Old Tax Regime. Under the New Tax Regime, this deduction is NOT available for self-occupied property. Principal repayment qualifies under Section 80C (within the Rs 1,50,000 limit). First-time home buyers can claim an additional deduction of Rs 50,000 under Section 80EEA if the property value does not exceed Rs 45,00,000.
+
+Capital Gains Tax
+Short-term capital gains (STCG) on equity shares and equity mutual funds held for less than 12 months are taxed at 20%. Long-term capital gains (LTCG) on equity exceeding Rs 1,25,000 in a financial year are taxed at 12.5%. For debt mutual funds, gains are taxed at the individual's income tax slab rate regardless of the holding period. Property held for more than 24 months qualifies as long-term, taxed at 12.5% without indexation benefit.
+
+Tax Deducted at Source (TDS)
+Employers deduct TDS from salary based on the applicable tax slab. TDS on Fixed Deposit interest is 10% if interest exceeds Rs 40,000 per year (Rs 50,000 for senior citizens). TDS on rent payments exceeding Rs 50,000 per month is 5%. Freelancers and consultants face TDS at 10% under Section 194J for professional services. If PAN is not provided, TDS is deducted at 20%.
+
+Important Filing Deadlines
+Income Tax Return (ITR) filing deadline for salaried individuals: July 31, 2026. Belated return can be filed until December 31, 2026 with a penalty of Rs 5,000 (Rs 1,000 if income is below Rs 5,00,000). Advance tax must be paid in four installments: 15% by June 15, 45% by September 15, 75% by December 15, and 100% by March 15. Failure to pay advance tax results in interest under Section 234B and 234C.
+
+Penalties and Consequences
+Late filing penalty under Section 234F: Rs 5,000 if filed after July 31 but before December 31. Rs 10,000 if filed after December 31. Interest under Section 234A: 1% per month on unpaid tax from the due date. Tax evasion can lead to prosecution under Section 276C with imprisonment of up to 7 years and a fine. Concealment of income attracts a penalty of 100% to 300% of the tax evaded under Section 270A.
+
+Senior Citizen Benefits
+Senior citizens (aged 60-80) have a basic exemption limit of Rs 3,00,000 under the Old Tax Regime. Super senior citizens (aged above 80) have a basic exemption limit of Rs 5,00,000 under the Old Tax Regime. Senior citizens are exempt from advance tax payment if they do not have business income. Interest income from savings accounts up to Rs 50,000 is exempt under Section 80TTB for senior citizens.
+
+Digital Tax Compliance
+All taxpayers must file returns electronically through the Income Tax e-filing portal (incometax.gov.in). Aadhaar-PAN linking is mandatory for filing returns. Form 26AS and Annual Information Statement (AIS) must be verified before filing to ensure all income and TDS entries are correct. Taxpayers earning above Rs 50,00,000 must also file an Income Tax Return with asset and liability details.

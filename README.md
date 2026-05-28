@@ -48,3 +48,14 @@ Combines BM25 keyword search with Chroma vector search using `EnsembleRetriever`
 ```bash
 cd project-05-hybrid-search && python hybrid_search.py
 ```
+
+### Project 06 — RAGAS Evaluation
+Full RAGAS workflow: auto-generates synthetic Q&A test data from a tax guidelines document, runs it through a RAG pipeline, then evaluates with 4 RAGAS metrics (faithfulness, answer relevancy, context precision, context recall). Uses its own venv due to ragas needing `langchain-community <0.4.0`.
+
+```bash
+cd project-06-ragas-evaluation
+python -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+python ragas_testset.py
+```

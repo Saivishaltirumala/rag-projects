@@ -1,0 +1,27 @@
+# Project-06 specific requirements
+# Uses its own venv due to ragas needing older langchain-community (<0.4.0)
+# that conflicts with other projects.
+
+# RAGAS
+ragas>=0.4.0
+rapidfuzz>=3.0.0
+
+# LLM & Embeddings
+langchain-anthropic>=0.3.0
+langchain-huggingface>=0.1.0
+sentence-transformers>=3.0.0
+
+# LangChain core (pinned to compatible versions for ragas)
+langchain>=0.3.0
+langchain-community>=0.3.0,<0.4.0
+langchain-text-splitters>=0.3.0
+
+# Vector Store
+langchain-chroma>=0.2.0
+chromadb>=0.5.0
+
+# Environment
+python-dotenv>=1.0.0
+
+# Data
+pandas>=2.2.0
